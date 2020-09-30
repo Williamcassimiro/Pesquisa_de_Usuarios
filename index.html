@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    
+    <link
+      href="https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <title>Buscador</title>
+  </head>
+
+  <body>
+    <div id="titlePage">
+      <h4>Pesquisa de Usuários</h4>
+    </div>
+    <div id="page">
+      <div id="div-input">
+        <input type="text" id="inputName" name="input" />
+
+        <a id="button" class="waves-effect waves-light btn"
+          ><i class="material-icons right">Pesquisar</i></a
+        >
+      </div>
+      <div id="titles">
+        <div id="container">
+          <div class="title">
+            <h5 id="countUsers"></h5>
+          </div>
+          <div class="title">
+            <h5>Estatisticas</h5>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div id="tabUsers"></div>
+        <div id="tabEstatiscas">
+          <p id="teste"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: rgb(238, 159, 12);
+}
+h1 {
+  font-weight: 300;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+}
+#titlePage {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+#page {
+  
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  justify-content: center;
+  
+}
+#content {
+  display: flex;
+  justify-content: space-around;
+}
+#container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  width: 50%;
+  margin-right: 10px;
+  text-align: center;
+}
+img {
+  border-radius: 25px;
+}
+#tabUsers {
+  padding-left: 20px;
+  width: 30%;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#tabEstatiscas {
+  padding-left: 20px;
+  width: 30%;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  padding: 30px;
+  height: 30%;
+}
+
+.rowUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid #ccc;
+  margin-top: 20px;
+}
+#div-input {
+  
+  width: 90%;
+  max-width: 1200px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+}
+#div-input #inputName {
+  width: 70%;
+}
