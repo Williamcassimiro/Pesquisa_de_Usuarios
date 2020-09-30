@@ -14,6 +14,19 @@ h1 {
   font-size: 3em;
   color: white;
 }
+#buscar{
+  
+  margin: 20px auto;
+  margin-left: 5.5em;
+  text-align:left;
+  font-size: 2em;
+  color: white;
+
+
+
+
+
+}
 #titlePage {
   margin: 20px auto;
   text-align: center;
@@ -85,4 +98,5 @@ img {
 }
 #div-input #inputName {
   width: 70%;
+  color:  white;
 }
